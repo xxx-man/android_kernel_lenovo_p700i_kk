@@ -2,8 +2,10 @@
 Lenovo P700i kernel [linux 3.4.113]
 
 
-new:
+new kernel:
+
 CROSS_COMPILE=~/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7/bin/arm-linux-androideabi- ./mk -t lenovo77_p700i n k
 
-remake:
+remake kernel:
+
 ./mk -t lenovo77_p700i r k
